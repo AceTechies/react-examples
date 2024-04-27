@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+
+.yoga_container {
+    overflow-y: auto; 
+    scroll-snap-type: y mandatory; 
+    background-color: #fff;
+    height: 86vh;
+  }
+
+  .yoga_container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .yoga_main_section {
+    height: 86vh;
+    position: relative;
+  }
+
+  .yoga_section1_imagecontainer > img {
+    width: 35vw;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+    left: 35%;
+    top: 0%;
+  }
+  
+  .yoga_main_section_image {
+    position: relative;
+    height: 86vh;
+    overflow: hidden;
+    scroll-snap-align: start;
+    perspective: 500px;
+  }
+
+  .yoga_logo_container {
+    flex: 3;
+  }
+
+  .yoga_topbar_container {
+    background-color: #fff;
+    display: flex;
+  }
+
+  .yoga_topbar_details_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex: 3;
+  }
+
+  .yoga_topbar_details_container > div > h3 {
+    font-family: "Martian Mono", monospace;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 10px 0px 10px -60px;
+  }
+
+  .yoga_title  {
+    position: relative;
+  }
+  .yoga_title > div {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+  }
+  .yoga_title > div >  h1 {
+    font-family: "Martian Mono", monospace;
+    font-size: 8vw;
+    font-weight: 800;
+    margin: 0px 20px;
+  }
+  .yoga_title > div >  h2 {
+    font-family: "Martian Mono", monospace;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0px 50px;
+    text-align: end;
+  }
+
+  .yoga_buttons_container {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+  }
+
+  .yoga_buttons {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 10px;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0px 50px 0px 0px;
+}
+  .yoga_buttons:hover {
+    background-color: #222;
+    border: 1px solid black;
+    color: #fff;
+    padding: 10px;
+    width: 120px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.yoga_asan_main_container {
+    position: absolute;
+    right: 80px;
+    top: 100px;
+}
+
+.yoga_asan_main_container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    color: #fff;
+    margin: 50px 0px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.yoga_asan_main_container > div > h3 {
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 300;
+    font-family: "Martian Mono", monospace;
+}
+
+.yoga_seconsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.yoga_second_section_tagsContainer > div {
+  writing-mode: vertical-rl;
+  white-space: nowrap; 
+  margin: 50px;
+}
+
+.yoga_section_detailsContainer {
+  position: relative;
+}
+
+.yoga_section_detailsContainer > div {
+  position: absolute;
+  left: 125px;
+  top: 50px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.yoga_section_detailsContainer > div > h2 {
+  font-size: 24px;
+  line-height: 22px;
+  margin: 25px 0px;
+  font-family: "Martian Mono", monospace;
+}
+
+.yoga_section_detailsContainer > div > p {
+  font-size: 12px;
+  line-height: 22px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.yoga_details_section {
+  width: 450px;
+}
+
+.yoga_details_section > p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.yoga_thirdSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+  
