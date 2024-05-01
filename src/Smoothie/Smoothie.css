@@ -1,0 +1,3 @@
+.smoothie_card_container::-webkit-scrollbar {
+    display: none;
+}

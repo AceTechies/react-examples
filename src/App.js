@@ -1,10 +1,10 @@
 import "./App.css";
-import Yoga from "./YogaWeb/Yoga";
+import Smoothie from "./Smoothie/Smoothie";
 
 function App() {
   return (
     <div className="App">
-      <Yoga />
+      <Smoothie />
     </div>
   );
 }
