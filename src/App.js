@@ -1,10 +1,10 @@
 import "./App.css";
-import Smoothie from "./Smoothie/Smoothie";
+import Spotlight from "./Spotlight/Spotlight";
 
 function App() {
   return (
     <div className="App">
-      <Smoothie />
+      <Spotlight />
     </div>
   );
 }
