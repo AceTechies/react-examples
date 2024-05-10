@@ -1,10 +1,11 @@
+import AnimatedSearch from "./AnimatedSearch/AnimatedSearch";
 import "./App.css";
-import Spotlight from "./Spotlight/Spotlight";
+import Workout from "./Workout/Workout";
 
 function App() {
   return (
     <div className="App">
-      <Spotlight />
+      <Workout />
     </div>
   );
 }

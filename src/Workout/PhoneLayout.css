@@ -1,0 +1,21 @@
+.phoneLayout_container {
+    width: 450px;
+    height: 99%;
+    margin: 10px 10px 0px 30px;
+    border-radius: 42px;
+    color: #fff;
+    position: relative;
+}
+
+.phoneLayout_details_container {
+    background-color: #101113;
+    width: 85%;
+    height: 200px;
+    position: absolute;
+    bottom: 70px;
+    border-radius: 22px;
+    left: 35px;
+    display: flex;
+    justify-content: space-between;
+   
+}
