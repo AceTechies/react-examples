@@ -1,11 +1,12 @@
-import AnimatedSearch from "./AnimatedSearch/AnimatedSearch";
+
 import "./App.css";
-import Workout from "./Workout/Workout";
+import SpotifySongs from "./SpotifySongs/SpotifySongs";
+
 
 function App() {
   return (
     <div className="App">
-      <Workout />
+      <SpotifySongs />
     </div>
   );
 }
