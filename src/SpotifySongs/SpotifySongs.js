@@ -61,6 +61,11 @@ function SpotifySongs() {
       time: "2:25",
     },
   ]);
+
+  const playAudio = (id) => {
+    
+  }
+
   const onDragEnd = (result) => {
     // dropped outside the list
     if (!result.destination) {
@@ -92,7 +97,7 @@ function SpotifySongs() {
         >
           {/* image section  */}
           <div style={{ display: "flex", alignItems: "center" }}>
-            <div>
+            <div onClick={() => playAudio(it.id)}>
               <img
                 style={{
                   width: "80px",
@@ -297,6 +302,7 @@ function SpotifySongs() {
           )}
         </Droppable>
       </DragDropContext>
+      <audio src="" />
     </div>
   );
 }

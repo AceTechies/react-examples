@@ -1,0 +1,44 @@
+.selectedButton {
+    text-transform: inherit !important;
+    background-color: #222 !important;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    border-radius: 22px !important;
+    margin-right: 10px !important;
+    width: 150px;
+}
+
+.unSelectedButton {
+    text-transform: inherit !important;
+    border: 1px solid #222 !important;
+    color: #222 !important;
+    padding: 10px 20px !important;
+    border-radius: 22px !important;
+    margin-right: 10px !important;
+    width: 150px;
+}
+
+.google_sign_in {
+    text-transform: inherit !important;
+    padding: 10px 20px !important;
+    border-radius: 12px !important;
+    margin-right: 10px !important;
+    width: 20vw !important;
+    margin-bottom: 40px !important;
+    height: 50px;
+    font-size: 18px !important;
+    display: flex !important;
+    align-items: center !important;
+
+}
+
+
+.get_otp_button {
+    text-transform: inherit !important;
+    background-color: #24916d !important;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    border-radius: 22px !important;
+    margin-right: 10px !important;
+    width: 27vw !important;
+}

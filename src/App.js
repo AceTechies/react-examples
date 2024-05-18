@@ -1,12 +1,11 @@
 
 import "./App.css";
-import SpotifySongs from "./SpotifySongs/SpotifySongs";
-
+import LoginPage from "./Login/LoginPage";
 
 function App() {
   return (
     <div className="App">
-      <SpotifySongs />
+      <LoginPage />
     </div>
   );
 }
